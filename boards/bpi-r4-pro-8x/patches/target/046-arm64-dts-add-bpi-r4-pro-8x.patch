@@ -639,7 +639,7 @@
 +	pcie-3-hog {
 +		gpio-hog;
 +		gpios = <63 GPIO_ACTIVE_HIGH>;
-+		output-high;
++		output-low;
 +	};
 +
 +	pwm0_pins: pwm0-pins {
